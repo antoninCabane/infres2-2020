@@ -1,0 +1,18 @@
+Version Python = 3.6/3.7
+Lib à installer = pycryptodomex - last Version (07/02/2020)
+
+Il s'agit d'une messagerie instannée chiffrée avec authentification
+    - Mot de passe client : IETc4Zy8
+    - Mot de passe serveur : rWV31FJn
+
+Fonstionnalités implémentée :
+    1) Messagerie instannée sur le modèle req/res avec envoi des messages chiffrés en AES-256-GCM
+    2) Stockage des messages en base de données (messages chiffrés)
+    3) Authentification en local du client et du serveur
+    4) Authentification par challenge pour les deux côté
+    5) Mise en place d'un historique des communications
+
+Instruction :
+    1) Lancer le serveur avant le client ...
+    2) La suite est intuitive (affichage en console)
+    3) Pour intérompre la conversation: Ctrl-C
